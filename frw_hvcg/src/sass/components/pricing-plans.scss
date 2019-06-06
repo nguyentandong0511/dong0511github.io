@@ -1,0 +1,73 @@
+.box-pricing{
+    background-color: white;
+    text-align: center;
+    color: #0e314c;
+    margin: 1rem 1.5rem;
+    border-radius: 5px;
+    overflow: hidden;
+    .pricing-title{
+        padding: 2.5rem 0;
+        border-bottom: 1px solid #eee;
+        transition: all 1s ease;
+        &:hover{
+            transition: all 1s ease;
+            background: linear-gradient(135deg, #23bdb8 0%, #43e794 100%);
+            color: white;
+        }
+    }
+    .pricing-price{
+        padding: 3rem 0;
+        color: #44ce6f;
+        border-bottom: 1px dashed #eee;
+        span{
+            font-size: 2.6rem;
+            font-weight: 600;
+            sup{
+                font-weight: 500;
+            }
+            span{
+                font-size: 1.4rem;
+                font-weight: 500;
+            }
+        }
+    }
+    .pricing-main{
+        ul{
+            font-size: 1.4rem;
+            li{
+                list-style: none;
+                padding: 1rem 0;
+                border-bottom: 1px dashed #eee;
+                font-weight: 500;
+                color: #666666;
+                &:last-child{
+                    border-bottom: none;
+                }
+            }
+        }
+    }
+    .pricing-footer{
+        padding: 2rem 0;
+        button{
+            padding: 1.5rem 3rem;
+            background-color: #44ce6f;   
+        }
+    }
+}
+
+.bg-active{
+    color: white;
+    background: linear-gradient(135deg, #23bdb8 0%, #43e794 100%);
+}
+
+.btn-active{
+    button{
+        background-color: #c679e3 !important;
+    }
+}
+
+@media (max-width: 576px){
+    .bg-pricing{
+        display: block !important;
+    }
+}

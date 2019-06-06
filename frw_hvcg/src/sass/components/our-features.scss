@@ -1,0 +1,66 @@
+.our-features{
+    background-color: #f7fafd;
+    .container{
+        .section-title{
+            text-align: center;
+            padding: 50px 0;
+        }
+        .wrapper-our-features{
+            .wrapper-box-our-features{
+                .wrapper-inner{
+                    padding: 0 1.5rem;
+                    .box-our-features{
+                        .cs-box-our-features{
+                            border: none;
+                            box-shadow: none;
+                            position: relative;
+                            background: #ffffff;
+                            padding: 3rem 2rem 3rem 9.5rem;
+                            margin-bottom: 30px;
+                            border-radius: 5px;
+                            -webkit-transition: 0.5s;
+                            transition: 0.5s;
+                            h3{
+                                color: #0e314c;
+                                font-weight: 500;
+                                font-size: 1.8rem;
+                                margin-bottom: 10px;
+                            }
+                            .icon{
+                                position: absolute;
+                                text-align: center;
+                                width: 55px;
+                                height: 55px;
+                                line-height: 55px;
+                                background: #cdf1d8;
+                                border-radius: 50%;
+                                color: #44ce6f;
+                                left: 2rem;
+                                top: 3rem;
+                                -webkit-transition: 0.5s;
+                                transition: 0.5s;
+                                font-size: 2rem;
+                                .fas.fa-cog{
+                                    color: #44ce6f;
+                                }
+                                .fas.fa-th-large,.far.fa-question-circle{
+                                    color: #c679e3;
+                                }
+                                .fas.fa-mouse-pointer,.far.fa-bell{
+                                    color: #eb6b3d;
+                                }
+                            }
+                            .bg-edc3fc{
+                                background: #edc3fc;
+                            }
+                            .bg-f9d2c4{
+                                background: #f9d2c4;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        
+    }
+}

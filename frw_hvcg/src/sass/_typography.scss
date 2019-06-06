@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700&display=swap');
+html,body{
+    font-size: 62.5%;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body,td,th,input,button{
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.5;
+    font-weight: 300;
+    font-size: 1.8rem;
+    color: #666666;
+}
+
+// @each $vw in(
+//     576px 1.2,
+//     768px 1.4,
+//     991px 1.6
+// ){
+//     @media screen and (min-width: #{nth($vw,1)}){
+//         body,td,th,input,button{
+//             font-size: 10px*nth($vw,2);
+//         }
+//     }
+// }

@@ -1,0 +1,117 @@
+.fz16-mg{
+    font-size: 1.6rem;
+    margin-bottom: 3rem;
+}
+
+.top-content{
+    position: relative;
+    margin-bottom: 15rem;
+    .wrapper-topcontent{
+        padding: 12rem 0;
+        background-position-x: right;
+        background-position-y: top;
+        background-size: initial;
+        background-repeat: no-repeat;
+        background-attachment: initial;
+        background-origin: initial;
+        background-clip: initial;
+        background-color: transparent;
+        z-index: 2;
+        position: relative;
+        height: 910px;
+        // width: 100% !important;
+        .of-visi{
+            overflow: visible;
+            margin-top: 5rem;
+            margin-bottom: 5rem;
+        }
+        .cs-h1-top-content{
+            font-size: 4.5rem;
+            font-weight: 500;
+            margin-bottom: 2rem;
+        }
+        .cs-box01{
+            padding: 3rem 2rem;
+            position: relative;
+            z-index: 1;
+            border-radius: .5rem;
+            margin: 3rem 0;
+            h3{
+                font-size: 1.8rem;
+                margin-top: 2.5rem;
+                margin-bottom: 1.5rem;
+                -webkit-transition: 0.5s;
+                transition: 0.5s;
+            }
+            p{
+                font-size: 1.4rem;
+            }
+            .icon{
+                display: inline-block;
+                text-align: center;
+                width: 55px;
+                height: 55px;
+                line-height: 5.5rem;
+                border-radius: 50%;
+                -webkit-transition: 0.5s;
+                transition: 0.5s;
+                font-size: 1.8rem;
+            }
+            .bg-icon-01{
+                background-color: #cdf1d8;
+                color: #44ce6f;
+            }
+            .bg-icon-02{
+                background-color: #fddcef;
+                color: #f78acb;
+            }
+            .bg-icon-03{
+                background-color: #edc3fc;
+                color: #c679e3;
+            }
+            .bg-icon-04{
+                background-color: #f9d2c4;
+                color: #eb6b3d;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 991px) and (min-width: 768px){
+    .wrapper-topcontent{
+        height: 100%;
+    }
+}
+@media (max-width:992px){
+    .top-content{
+        margin-bottom: 5rem;
+        .wrapper-topcontent{
+            height: 100%;
+            padding: 0;
+            padding-top: 10rem;
+            .fadeInUp{
+                margin: 0 auto;
+            }
+            .cs-h1-top-content{
+                font-size: 2.8rem;
+                font-weight: 500;
+                margin-bottom: 2rem;
+            }    
+        }
+        .hd-text{
+            padding: 0 15px;
+            
+        }
+        button{
+            display: block;
+            margin: 30px auto;
+        }
+    }
+    
+    
+}
+.bg-green{
+    background-color: #44ce6f;
+    font-weight: 400;
+    font-size:14px;
+    padding: 1.5rem 4rem;
+}

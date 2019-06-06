@@ -1,0 +1,56 @@
+$green: seagreen;
+$olive: olive;
+$blue: dodgerblue;
+$tomato: tomato;
+$orange: orange;
+$pink: #ff6666;
+$black: #222222;
+$white: #fff;
+$red: red;
+
+$bg-lighten: 35%;
+
+$border: #ccc;
+
+// TEXTs
+
+$text-colors: () !default;
+$text-colors: map-merge((
+    "text-green": $green,
+    "text-olive": $olive,
+    "text-blue": $blue,
+    "text-tomato": $tomato,
+    "text-orange": $orange,
+    "text-pink": $pink,
+    "text-black": $black,
+    "text-white": $white,
+    "text-red": $red,
+) , $text-colors);
+
+@each $name,$color in $text-colors{
+    .#{$name}{
+        color: $color;
+    }
+}
+
+// BACKGROUNDs
+
+$bg-color: () !default;
+$bg-color: map-merge((
+    "bg-green": lighten($green,$bg-lighten),
+    "bg-olive": lighten($olive,$bg-lighten),
+    "bg-blue": lighten($blue,$bg-lighten),
+    "bg-tomato": lighten($tomato,$bg-lighten),
+    "bg-orange": lighten($orange,$bg-lighten),
+    "bg-pink":($pink),
+    "bg-black":($black),
+    "bg-white": lighten($white,$bg-lighten),
+    "bg-red":($red),
+), $bg-color);
+
+@each $name,$color in $bg-color{
+    .#{$name}{
+        background-color: $color;
+    }
+}
+

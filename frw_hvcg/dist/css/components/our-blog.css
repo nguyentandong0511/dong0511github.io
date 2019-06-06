@@ -1,0 +1,65 @@
+.our-blog {
+  text-align: center;
+  padding: 2rem; }
+  .our-blog .section-title {
+    margin: 0 0 6rem; }
+  .our-blog .our-blog__main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; }
+    .our-blog .our-blog__main .our-blog__block {
+      width: 30%;
+      margin: 1.5rem;
+      padding-bottom: 25px;
+      border: 1px solid #eee;
+      transition: 0.5s; }
+      .our-blog .our-blog__main .our-blog__block .our-blog__img {
+        position: relative; }
+        .our-blog .our-blog__main .our-blog__block .our-blog__img img {
+          width: 100%;
+          height: auto; }
+        .our-blog .our-blog__main .our-blog__block .our-blog__img .date {
+          color: black;
+          position: absolute;
+          top: 100%;
+          left: 5%;
+          transform: translate(0, -50%); }
+          .our-blog .our-blog__main .our-blog__block .our-blog__img .date p {
+            display: inline-block;
+            padding: .8rem 1.6rem;
+            border-radius: 50px;
+            background: linear-gradient(135deg, #23bdb8 0%, #43e794 100%);
+            color: white;
+            font-size: 1.4rem; }
+      .our-blog .our-blog__main .our-blog__block .our-blog__content {
+        text-align: left;
+        padding: 3rem 1rem; }
+        .our-blog .our-blog__main .our-blog__block .our-blog__content a {
+          word-wrap: break-word;
+          display: block;
+          color: #0e314c;
+          transition: 0.5s;
+          text-decoration: none;
+          outline: 0 !important;
+          font-size: 2rem;
+          font-weight: 600; }
+          .our-blog .our-blog__main .our-blog__block .our-blog__content a:hover {
+            color: #44ce6f; }
+        .our-blog .our-blog__main .our-blog__block .our-blog__content p a {
+          display: inline;
+          font-size: 1.6rem;
+          font-weight: 400; }
+        .our-blog .our-blog__main .our-blog__block .our-blog__content .readmore {
+          margin-top: 3rem;
+          font-size: 1.6rem;
+          transition: 0.5s; }
+      .our-blog .our-blog__main .our-blog__block:hover {
+        box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.08); }
+
+@media only screen and (max-width: 991px) {
+  .our-blog .our-blog__main .our-blog__block {
+    width: 46% !important; } }
+
+@media only screen and (max-width: 767px) {
+  .our-blog .our-blog__main .our-blog__block {
+    width: 100% !important; } }

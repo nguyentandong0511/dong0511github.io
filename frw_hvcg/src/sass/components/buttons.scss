@@ -1,0 +1,231 @@
+//Button Default
+.btn-df{
+    display: inline-block;
+    line-height: 1.8rem;
+    background-color:#003C93;
+    padding: 1rem 4rem;
+    font-size: 1.8rem;
+    cursor: pointer;
+    border-radius: .4rem;
+    color: #fff;
+    font-weight: 400;
+    text-align: center;
+    border: none;
+    &:focus{
+        outline: transparent;
+    }
+    z-index: 1;
+}
+
+//Hover Defaut
+.btn-hv{
+    transition: all .5s ease;
+    &:hover{
+        background-color: #050964;
+        transition: all .5s ease;
+    }
+}
+//Hover box-shadow
+.btn-hv-bs{
+    &:hover{
+        box-shadow: 0 1.3rem 2.7rem 0 rgba(175, 169, 177, 0.25);
+    }
+}
+
+//Hover button Up
+.btn-hv-up{
+    transition: all .5s ease;
+    &:hover{
+        transform: translateY(-1rem);
+        -webkit-transition: all .5s;
+        transition: all .5s;
+    } 
+}
+
+//Hover button Down
+.btn-hv-down{
+    transition: all .5s ease;
+    &:hover{
+        transform: translateY(1rem);
+        -webkit-transition: all .5s;
+        transition: all .5s;
+    } 
+}
+
+//Hover button Down
+.btn-hv-scale{
+    transition: all .5s ease;
+    &:hover{
+        transform: scale(1.1);
+        -webkit-transition: all .5s;
+        transition: all .5s;
+    } 
+}
+
+// Hover hiệu ứng kính
+.btn-hv-cubic{
+    border: 1px solid #fff;
+    overflow: hidden;
+    position: relative;
+    span{
+        z-index: 20;
+    }
+    &:after{
+        background: #fff;
+        content: "";
+        height: 15.5rem;
+        left: -7.5rem;
+        opacity: .2;
+        position: absolute;
+        top: -5rem;
+        transform: rotate(35deg);
+        transition: all .5s cubic-bezier(0.19, 1, 0.22, 1);
+        width: 5rem;
+        z-index: -10;
+    }
+    &:hover:after{
+        left: 120%;
+        transition: all .5s cubic-bezier(0.19, 1, 0.22, 1);
+    }
+}
+
+//Hover in
+
+.btn-hv-in{
+    // border: 0 solid;
+    box-shadow: inset 0 0 2rem rgba(255, 255, 255, 0);
+    outline: .1rem solid;
+    outline-color: rgba(255, 255, 255, 0.411);
+    outline-offset: 0px;
+    text-shadow: none;
+    transition: all 1.2s cubic-bezier(0.19, 1, 0.22, 1);
+    &:hover{
+        // border: 1px solid;
+        box-shadow: inset 0 0 2rem rgba(255, 255, 255, .5), 0 0 20px rgba(255, 255, 255, .2);
+        outline-color: rgba(255, 255, 255, 0);
+        outline-offset: 1.5rem;
+        text-shadow: 1px 1px 2px #427388; 
+    }
+}
+//-- Hover màu Green -- //
+
+.btn-df.btn-hv-green{
+    position: relative;
+    &:hover{
+        box-shadow: 0 .8rem 1.7rem 0 #44ce6f;
+    }
+    &:before{
+        right: 0;
+        border-radius: 0 .4rem .4rem 0;
+    }
+    &:after{
+        left: 0;
+        border-radius: .4rem 0 0 .4rem;
+    }
+    &:before,&:after{
+        content: '';
+        position: absolute;
+        top: 0;
+        height: 100%;
+        width: 0;
+        -webkit-transition: 0.5s;
+        transition: 0.5s;
+        background: #44ce6f;
+        z-index: -1;
+    }
+    &:hover:before,&:hover:after{
+        width: 50%;
+    }
+}
+//-- Hover màu Violet -- //
+
+.btn-df.btn-hv-violet{
+    position: relative;
+    &:hover{
+        box-shadow: 0 .8rem 1.7rem 0 #c679e3;
+    }
+    &:before{
+        right: 0;
+        border-radius: 0 .4rem .4rem 0;
+    }
+    &:after{
+        left: 0;
+        border-radius: .4rem 0 0 .4rem;
+    }
+    &:before,&:after{
+        content: '';
+        position: absolute;
+        top: 0;
+        height: 100%;
+        width: 0;
+        -webkit-transition: 0.5s;
+        transition: 0.5s;
+        background: #c679e3;
+        z-index: -1;
+    }
+    &:hover:before,&:hover:after{
+        width: 50%;
+    }
+}
+
+//-- Hover màu pink -- //
+
+.btn-df.btn-hv-pink{
+    position: relative;
+    &:hover{
+        box-shadow: 0 .8rem 1.7rem 0 #e36cd9;
+    }
+    &:before{
+        right: 0;
+        border-radius: 0 .4rem .4rem 0;
+    }
+    &:after{
+        left: 0;
+        border-radius: .4rem 0 0 .4rem;
+    }
+    &:before,&:after{
+        content: '';
+        position: absolute;
+        top: 0;
+        height: 100%;
+        width: 0;
+        -webkit-transition: 0.5s;
+        transition: 0.5s;
+        background: #e36cd9;
+        z-index: -1;
+    }
+    &:hover:before,&:hover:after{
+        width: 50%;
+    }
+}
+
+//-- Hover màu Brink-pink -- //
+
+.btn-df.btn-hv-brpink{
+    position: relative;
+    &:hover{
+        box-shadow: 0 .8rem 1.7rem 0 #f48665;
+    }
+    &:before{
+        right: 0;
+        border-radius: 0 .4rem .4rem 0;
+    }
+    &:after{
+        left: 0;
+        border-radius: .4rem 0 0 .4rem;
+    }
+    &:before,&:after{
+        content: '';
+        position: absolute;
+        top: 0;
+        height: 100%;
+        width: 0;
+        -webkit-transition: 0.5s;
+        transition: 0.5s;
+        background: #f48665;
+        z-index: -1;
+    }
+    &:hover:before,&:hover:after{
+        width: 50%;
+    }
+}

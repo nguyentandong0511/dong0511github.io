@@ -1,0 +1,132 @@
+.footer {
+  position: relative; }
+  .footer .footer__content {
+    z-index: 2;
+    display: flex;
+    color: #666666;
+    background-color: #f7fafd;
+    justify-content: center; }
+    .footer .footer__content .logan {
+      width: 22%;
+      padding: 3rem; }
+      .footer .footer__content .logan a {
+        display: block;
+        padding: 0.5rem 0; }
+        .footer .footer__content .logan a img {
+          width: 50%;
+          height: auto; }
+    .footer .footer__content div {
+      padding: 3rem;
+      font-size: 1.8rem; }
+      .footer .footer__content div h2 {
+        margin-bottom: 2rem;
+        font-size: 2.5rem;
+        color: #343a40;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.3); }
+      .footer .footer__content div ul li {
+        list-style: none;
+        padding-left: 2rem;
+        position: relative;
+        margin: 0 0 0.8rem 1.7rem;
+        line-height: 2rem; }
+        .footer .footer__content div ul li a {
+          text-decoration: none;
+          color: #484848; }
+        .footer .footer__content div ul li::before {
+          background-color: #44ce6f;
+          height: 7px;
+          width: 7px;
+          content: '';
+          left: -17px;
+          top: 8px;
+          position: absolute; }
+    .footer .footer__content .address li {
+      margin: 0 0 0.8rem -2.3rem; }
+      .footer .footer__content .address li i {
+        color: #44ce6f; }
+      .footer .footer__content .address li::before {
+        height: 0;
+        width: 0; }
+      .footer .footer__content .address li a {
+        text-decoration: none;
+        color: #484848; }
+        .footer .footer__content .address li a:hover {
+          color: #44ce6f; }
+    .footer .footer__content .address .social-network .facebook {
+      display: inline-block;
+      padding: 0.7rem 1rem;
+      border: 1px solid #4267b2;
+      border-radius: 50%;
+      margin-right: 1rem; }
+      .footer .footer__content .address .social-network .facebook i {
+        color: #4267b2; }
+      .footer .footer__content .address .social-network .facebook:hover {
+        background: #4267b2; }
+        .footer .footer__content .address .social-network .facebook:hover i {
+          color: white; }
+    .footer .footer__content .address .social-network .instagram {
+      display: inline-block;
+      padding: 0.7rem 1rem;
+      border: 1px solid black;
+      border-radius: 50%;
+      margin-right: 1rem; }
+      .footer .footer__content .address .social-network .instagram i {
+        color: black; }
+      .footer .footer__content .address .social-network .instagram:hover {
+        background: black; }
+        .footer .footer__content .address .social-network .instagram:hover i {
+          color: white; }
+    .footer .footer__content .address .social-network .linkedin {
+      display: inline-block;
+      padding: 0.7rem 1rem;
+      border: 1px solid #0077B5;
+      border-radius: 50%;
+      margin-right: 1rem; }
+      .footer .footer__content .address .social-network .linkedin i {
+        color: #0077B5; }
+      .footer .footer__content .address .social-network .linkedin:hover {
+        background: #0077B5; }
+        .footer .footer__content .address .social-network .linkedin:hover i {
+          color: white; }
+    .footer .footer__content .address .social-network .twitter {
+      display: inline-block;
+      padding: 0.7rem 1rem;
+      border: 1px solid #38A1F3;
+      border-radius: 50%;
+      margin-right: 1rem; }
+      .footer .footer__content .address .social-network .twitter i {
+        font-size: 15.67px;
+        color: #38A1F3; }
+      .footer .footer__content .address .social-network .twitter:hover {
+        background: #38A1F3; }
+        .footer .footer__content .address .social-network .twitter:hover i {
+          color: white; }
+  .footer .footer__footer {
+    display: flex;
+    color: #666666;
+    background-color: #f7fafd;
+    justify-content: center;
+    padding: 2rem 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.3); }
+
+@media only screen and (max-width: 991px) {
+  .footer .footer__content {
+    display: flex;
+    justify-content: center;
+    color: #666666;
+    background-color: #f7fafd;
+    padding: 3rem;
+    flex-wrap: wrap; }
+    .footer .footer__content .logan, .footer .footer__content .address, .footer .footer__content .support, .footer .footer__content .company {
+      width: 44%; } }
+
+@media only screen and (max-width: 767px) {
+  .footer .footer__content {
+    display: flex;
+    justify-content: center;
+    color: #666666;
+    background-color: #f7fafd;
+    padding: 3rem;
+    flex-wrap: wrap; }
+    .footer .footer__content .logan, .footer .footer__content .address, .footer .footer__content .support, .footer .footer__content .company {
+      width: 100%; } }

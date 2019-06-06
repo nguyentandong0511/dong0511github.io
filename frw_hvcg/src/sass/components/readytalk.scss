@@ -1,0 +1,134 @@
+.readytalk{
+    .readytalk__main{
+        position: relative;
+        margin-bottom: 20rem;
+        .readytalk__header{
+            text-align: center;
+            background: linear-gradient(135deg, #23bdb8 0%, #43e794 100%);
+            color: #f8f9fa;
+            display: block;
+            padding: 6rem 10% 12rem 10%;
+            position: relative;
+            h2{
+                margin: 0 0 1.5rem;
+                font-size: 2rem;
+            }
+            p{
+                margin: 1.6rem 0 0;
+                font-size: 1.6rem;
+            }
+            .child{
+                font-size: 1.7rem;
+            }
+            .container{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                button{
+                    display: inline;
+                    background: #c679e3;
+                    padding: 1.3rem 3.3rem; 
+                    font-size: 1.3rem;
+                }
+                a{
+                    display: block;
+                    color: #f8f9fa;
+                    font-size: 1.4rem;
+                }
+            }
+        }
+        .partner-inner{
+            background: white;
+            position: absolute;
+            top: 75%;
+            // right: 10%;
+            // left: 10%;
+            margin-left: 10%;
+            margin-right: 10%; 
+            z-index: 2;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding-bottom: 2rem;
+            box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.08);
+            border-radius: 3px;
+            .partner__block{
+                width: 16%;             //
+                .container{
+                    display: flex;
+                    flex-wrap: wrap;
+                    position: relative;
+                    overflow: hidden;
+                    .partner__img{
+                        a{
+                            display: block;
+                            margin-top: 2.5rem;
+                            // img{
+                            //     width: 100%;
+                            //     // height: auto;
+                            // }
+                        }
+                    }
+                    .partner__shadow{
+                        position: absolute;
+                        top: 100%;
+                        left: 1.5rem;
+                        right: 0;
+                        bottom: 0;
+                        transition: 0.5s;
+                        opacity: 0;
+                        a{
+                            display: block;
+                            margin-top: 2.5rem;
+                        }
+                    }
+                    &:hover {
+                        .partner__shadow{
+                            top: 0;     
+                            opacity: 1;               
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width: 990px){
+    .readytalk{
+        .readytalk__main{
+            margin-bottom: 30rem;
+            .partner-inner{
+                .partner__block{
+                    width: 25%;
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width: 767px){
+    .readytalk{
+        .readytalk__main{
+            margin-bottom: 60rem;
+            .readytalk__header{
+                .container{
+                    display: block;
+                }
+            }
+            .partner-inner{
+                .partner__block{
+                    // padding: 0 3rem;
+                    width: 50%;
+                    .container{
+                        .partner__img{
+                            // margin: 0 auto;
+                        }
+                        .partner__shadow{
+                            
+                        }
+                    }
+                }
+                
+            }
+        }
+    }
+}

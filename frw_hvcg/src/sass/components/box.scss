@@ -1,0 +1,103 @@
+// Box default
+.box-bg-df{
+    position: relative;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 1rem rgba(72, 69, 224, 0.1);
+    transition: all .5s ease;
+    font-size: 14px;
+    &:before{
+        content: '';
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        opacity: 0;
+        visibility: hidden;
+        position: absolute;
+        border-radius: .5rem;
+        z-index: -1;
+        -webkit-transition: 0.5s;
+        transition: 0.5s;
+    }
+    &:hover{
+        transform: translateY(-9px);
+        border-color: transparent;
+        -webkit-transition: 0.5s;
+        transition: 0.5s;
+    }
+    &:hover:before{
+        opacity: 1;
+        visibility: visible;
+        // top: 9px;
+    }
+}
+
+// Box landingpage ko màu
+.box-bg-trans{
+    background-color: #fff;
+    border-radius: 0.5rem;
+    transition: all .5s ease;
+    border: 1px dashed #cdf1d8;
+    &:hover{
+        transform: translateY(-9px);
+        border-color: transparent;
+        box-shadow: 0 0 3rem rgba(72, 69, 224, 0.1);
+        -webkit-transition: 0.5s;
+        transition: 0.5s;
+    }
+}
+
+// Box landingpage Màu green gradient
+.box-bg-green{
+    transition: all .5s ease;
+    &:before{
+        content: '';
+        background: linear-gradient(135deg, #23bdb8 0%, #43e794 100%);
+    }
+}
+
+// Box màu violet gradient
+.box-bg-violet{
+    transition: all .5s ease;
+    &:before{
+        content: '';
+        background: linear-gradient(135deg, #9a56ff 0%, #e36cd9 100%);
+    }
+}
+
+// Box màu pink gradient
+.box-bg-pink{
+    &:before{
+        content: '';
+        background: linear-gradient(135deg, #e36cd9 0%, #fe60ae 100%);
+    }
+}
+
+// Box màu brink-pink gradient
+.box-bg-brpink{
+    &:before{
+        content: '';
+        background: linear-gradient(135deg, #f48665 0%, #fda23f 100%);
+    }
+}
+
+
+//Thẻ padding
+.pd-lr{
+    padding: 0 .5rem;
+}
+.pd-lr1{
+    padding: 0 1rem;
+}
+.pd-lr2{
+    padding: 0 1.5rem;
+}
+.pd-td{
+    padding: .5rem 0;
+}
+.pd-td1{
+    padding: 1rem 0;
+}
+.pd-td2{
+    padding: 1.5rem 0;
+}

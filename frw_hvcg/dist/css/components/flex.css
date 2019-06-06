@@ -1,0 +1,49 @@
+.ai-center {
+  align-items: center; }
+
+.mg-tb-5r {
+  margin: 5rem 0; }
+
+.pd0-5 {
+  padding: .5rem; }
+
+.pd1 {
+  padding: 1rem; }
+
+.pd1-5 {
+  padding: 1.5rem; }
+
+.pd2 {
+  padding: 2rem; }
+
+.pd-tb0-5 {
+  padding-top: .5rem;
+  padding-bottom: .5rem; }
+
+.pd-tb1 {
+  padding-top: 1rem;
+  padding-bottom: 1rem; }
+
+.pd-tb1-5 {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem; }
+
+.pd-tb2 {
+  padding-top: 2rem;
+  padding-bottom: 2rem; }
+
+.pd-lr0-5 {
+  padding-left: .5rem;
+  padding-right: .5rem; }
+
+.pd-lr1 {
+  padding-left: 1rem;
+  padding-right: 1rem; }
+
+.pd-lr1-5 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem; }
+
+.pd-lr2 {
+  padding-left: 2rem;
+  padding-right: 2rem; }

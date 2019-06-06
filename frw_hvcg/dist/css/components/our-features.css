@@ -1,0 +1,46 @@
+.our-features {
+  background-color: #f7fafd; }
+  .our-features .container .section-title {
+    text-align: center;
+    padding: 50px 0; }
+  .our-features .container .wrapper-our-features .wrapper-box-our-features .wrapper-inner {
+    padding: 0 1.5rem; }
+    .our-features .container .wrapper-our-features .wrapper-box-our-features .wrapper-inner .box-our-features .cs-box-our-features {
+      border: none;
+      box-shadow: none;
+      position: relative;
+      background: #ffffff;
+      padding: 3rem 2rem 3rem 9.5rem;
+      margin-bottom: 30px;
+      border-radius: 5px;
+      -webkit-transition: 0.5s;
+      transition: 0.5s; }
+      .our-features .container .wrapper-our-features .wrapper-box-our-features .wrapper-inner .box-our-features .cs-box-our-features h3 {
+        color: #0e314c;
+        font-weight: 500;
+        font-size: 1.8rem;
+        margin-bottom: 10px; }
+      .our-features .container .wrapper-our-features .wrapper-box-our-features .wrapper-inner .box-our-features .cs-box-our-features .icon {
+        position: absolute;
+        text-align: center;
+        width: 55px;
+        height: 55px;
+        line-height: 55px;
+        background: #cdf1d8;
+        border-radius: 50%;
+        color: #44ce6f;
+        left: 2rem;
+        top: 3rem;
+        -webkit-transition: 0.5s;
+        transition: 0.5s;
+        font-size: 2rem; }
+        .our-features .container .wrapper-our-features .wrapper-box-our-features .wrapper-inner .box-our-features .cs-box-our-features .icon .fas.fa-cog {
+          color: #44ce6f; }
+        .our-features .container .wrapper-our-features .wrapper-box-our-features .wrapper-inner .box-our-features .cs-box-our-features .icon .fas.fa-th-large, .our-features .container .wrapper-our-features .wrapper-box-our-features .wrapper-inner .box-our-features .cs-box-our-features .icon .far.fa-question-circle {
+          color: #c679e3; }
+        .our-features .container .wrapper-our-features .wrapper-box-our-features .wrapper-inner .box-our-features .cs-box-our-features .icon .fas.fa-mouse-pointer, .our-features .container .wrapper-our-features .wrapper-box-our-features .wrapper-inner .box-our-features .cs-box-our-features .icon .far.fa-bell {
+          color: #eb6b3d; }
+      .our-features .container .wrapper-our-features .wrapper-box-our-features .wrapper-inner .box-our-features .cs-box-our-features .bg-edc3fc {
+        background: #edc3fc; }
+      .our-features .container .wrapper-our-features .wrapper-box-our-features .wrapper-inner .box-our-features .cs-box-our-features .bg-f9d2c4 {
+        background: #f9d2c4; }

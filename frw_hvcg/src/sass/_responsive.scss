@@ -1,0 +1,128 @@
+@media (max-width:992px){
+    .img-banner{
+        img{
+            visibility: hidden !important;
+            &:last-child{
+                visibility: visible !important;
+            }
+        }
+    }
+}
+@media (max-width: 576px){
+    .hd-hover-content{
+        flex-direction: column !important;
+    }
+    .img-banner{
+        img{
+            visibility: hidden !important;
+            &:last-child{
+                visibility: visible !important;
+            }
+        }
+    }
+    .img-cloud-animate,
+    .img-content{
+        padding: 0 5rem !important;
+        margin: 1rem !important;
+        img{
+            visibility: hidden !important;
+            &:last-child{
+                visibility: visible !important;
+                position: relative;
+                width: 50%;
+                margin: auto;
+            }
+        }
+    }
+    .img-cloud-animate{
+        overflow: hidden;
+        img{
+            &:nth-child(14){
+                visibility: visible !important;
+                position: absolute;
+            }
+        }
+    }
+    .img-content{
+        overflow: hidden;
+        img{
+            &:nth-child(9){
+                visibility: visible !important;
+                position: absolute;
+                width: 100%;
+            }
+        }
+    }
+}
+
+@media (max-width: 768px){
+    .animate-cloud{
+        flex-direction: column-reverse;
+    }
+    .img-banner{
+        img{
+            visibility: hidden !important;
+            &:last-child{
+                visibility: visible !important;
+            }
+        }
+    }
+    .img-cloud-animate,
+    .img-content{
+        padding: .5rem 7rem !important;
+        img{
+            visibility: hidden !important;
+            &:last-child{
+                visibility: visible !important;
+                position: relative;
+                width: 50%;
+                margin: auto;
+            }
+        }
+    }
+    .img-cloud-animate{
+        overflow: hidden;
+        img{
+            &:nth-child(14){
+                visibility: visible !important;
+                position: absolute;
+            }
+        }
+    }
+    .img-content{
+        overflow: hidden;
+        img{
+            &:nth-child(9){
+                visibility: visible !important;
+                position: absolute;
+                width: 100%;
+            }
+        }
+    }
+}
+
+
+@media (max-width: 992px) and (min-width: 768px){
+    .animate-cloud{
+        flex-direction: column-reverse;
+    }
+    .img-cloud-animate{
+        overflow: hidden;
+        img{
+            &:nth-child(14){
+                visibility: visible !important;
+                position: absolute;
+            }
+        }
+    }
+    .img-content{
+        overflow: hidden;
+        img{
+            &:nth-child(9){
+                visibility: visible !important;
+                position: absolute;
+                width: 100%;
+            }
+        }
+    }
+}

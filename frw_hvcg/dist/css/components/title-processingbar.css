@@ -1,0 +1,66 @@
+.section-title h2 {
+  margin-bottom: 0;
+  margin-top: 0;
+  color: #0e314c;
+  font-size: 2.8rem;
+  text-transform: capitalize;
+  line-height: 1.4; }
+
+.section-title .processing-bar {
+  height: 5px;
+  width: 90px;
+  background: #cdf1d8;
+  margin: 20px auto;
+  position: relative;
+  border-radius: 30px; }
+  .section-title .processing-bar::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: -2.7px;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background: #44ce6f;
+    animation: processingAnimation 3s linear infinite;
+    -moz-animation: processingAnimation 3s linear infinite;
+    -webkit-animation: processingAnimation 3s linear infinite;
+    -o-animation: processingAnimation 3s linear infinite; }
+
+.section-title p {
+  max-width: 520px;
+  margin: 0 auto;
+  color: #666666;
+  line-height: 1.8;
+  font-size: 1.4rem; }
+
+@keyframes processingAnimation {
+  from {
+    left: 0px; }
+  to {
+    left: 100%; } }
+
+/* Hien thi cho Firefox */
+@-moz-keyframes processingAnimation {
+  from {
+    left: 0px; }
+  to {
+    left: 200px; } }
+
+/* Hien thi cho Safari and Chrome */
+@-webkit-keyframes processingAnimation {
+  from {
+    left: 0px; }
+  to {
+    left: 200px; } }
+
+/* Hien thi cho Opera */
+@-o-keyframes processingAnimation {
+  from {
+    left: 0px; }
+  to {
+    left: 200px; } }
+
+@media only screen and (max-width: 768px) {
+  .section-title h2 {
+    font-size: 2.2rem; } }

@@ -1,0 +1,93 @@
+.fz16-mg {
+  font-size: 1.6rem;
+  margin-bottom: 3rem; }
+
+.top-content {
+  position: relative;
+  margin-bottom: 15rem; }
+  .top-content .wrapper-topcontent {
+    padding: 12rem 0;
+    background-position-x: right;
+    background-position-y: top;
+    background-size: initial;
+    background-repeat: no-repeat;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: transparent;
+    z-index: 2;
+    position: relative;
+    height: 910px; }
+    .top-content .wrapper-topcontent .of-visi {
+      overflow: visible;
+      margin-top: 5rem;
+      margin-bottom: 5rem; }
+    .top-content .wrapper-topcontent .cs-h1-top-content {
+      font-size: 4.5rem;
+      font-weight: 500;
+      margin-bottom: 2rem; }
+    .top-content .wrapper-topcontent .cs-box01 {
+      padding: 3rem 2rem;
+      position: relative;
+      z-index: 1;
+      border-radius: .5rem;
+      margin: 3rem 0; }
+      .top-content .wrapper-topcontent .cs-box01 h3 {
+        font-size: 1.8rem;
+        margin-top: 2.5rem;
+        margin-bottom: 1.5rem;
+        -webkit-transition: 0.5s;
+        transition: 0.5s; }
+      .top-content .wrapper-topcontent .cs-box01 p {
+        font-size: 1.4rem; }
+      .top-content .wrapper-topcontent .cs-box01 .icon {
+        display: inline-block;
+        text-align: center;
+        width: 55px;
+        height: 55px;
+        line-height: 5.5rem;
+        border-radius: 50%;
+        -webkit-transition: 0.5s;
+        transition: 0.5s;
+        font-size: 1.8rem; }
+      .top-content .wrapper-topcontent .cs-box01 .bg-icon-01 {
+        background-color: #cdf1d8;
+        color: #44ce6f; }
+      .top-content .wrapper-topcontent .cs-box01 .bg-icon-02 {
+        background-color: #fddcef;
+        color: #f78acb; }
+      .top-content .wrapper-topcontent .cs-box01 .bg-icon-03 {
+        background-color: #edc3fc;
+        color: #c679e3; }
+      .top-content .wrapper-topcontent .cs-box01 .bg-icon-04 {
+        background-color: #f9d2c4;
+        color: #eb6b3d; }
+
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+  .wrapper-topcontent {
+    height: 100%; } }
+
+@media (max-width: 992px) {
+  .top-content {
+    margin-bottom: 5rem; }
+    .top-content .wrapper-topcontent {
+      height: 100%;
+      padding: 0;
+      padding-top: 10rem; }
+      .top-content .wrapper-topcontent .fadeInUp {
+        margin: 0 auto; }
+      .top-content .wrapper-topcontent .cs-h1-top-content {
+        font-size: 2.8rem;
+        font-weight: 500;
+        margin-bottom: 2rem; }
+    .top-content .hd-text {
+      padding: 0 15px; }
+    .top-content button {
+      display: block;
+      margin: 30px auto; } }
+
+.bg-green {
+  background-color: #44ce6f;
+  font-weight: 400;
+  font-size: 14px;
+  padding: 1.5rem 4rem; }

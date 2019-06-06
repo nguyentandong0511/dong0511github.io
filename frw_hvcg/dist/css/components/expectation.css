@@ -1,0 +1,70 @@
+.expectation {
+  text-align: center;
+  padding: 8rem 8%; }
+  .expectation .section-title {
+    margin-bottom: 60px; }
+  .expectation .info-page {
+    display: flex; }
+    .expectation .info-page .info-page__block {
+      margin: 0 1.5rem;
+      width: 25%;
+      text-align: center;
+      border: 1px solid #eee;
+      padding: 3rem 1rem;
+      font-size: 1.4rem;
+      color: #666666;
+      line-height: 1.8; }
+      .expectation .info-page .info-page__block h3 {
+        color: #44ce6f;
+        font-size: 3rem;
+        margin-bottom: .7rem;
+        font-weight: 600;
+        line-height: 1.2;
+        margin-top: 0; }
+      .expectation .info-page .info-page__block p {
+        margin-bottom: 0; }
+  .expectation .inner {
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%; }
+    .expectation .inner .wrapper .inner__block {
+      margin: 80px auto 0;
+      width: 100%;
+      max-width: 600px;
+      border: 1px dashed #ebebeb;
+      padding: 30px 30px 30px 30px;
+      border-radius: 5px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center; }
+      .expectation .inner .wrapper .inner__block h3 {
+        color: #0e314c; }
+      .expectation .inner .wrapper .inner__block p {
+        color: #666666; }
+      .expectation .inner .wrapper .inner__block .inner__content {
+        width: 60%; }
+      .expectation .inner .wrapper .inner__block .inner__btn {
+        width: 30%; }
+        .expectation .inner .wrapper .inner__block .inner__btn .btn-df {
+          background: #c679e3;
+          padding: 1.5rem 2rem;
+          margin: 3rem 0rem; }
+
+@media only screen and (max-width: 767px) {
+  .expectation {
+    padding: 8rem 12%; }
+    .expectation .info-page {
+      flex-wrap: wrap; }
+      .expectation .info-page .info-page__block {
+        width: 100%;
+        margin-bottom: 3rem; }
+    .expectation .inner .wrapper .inner__block {
+      flex-wrap: wrap; }
+      .expectation .inner .wrapper .inner__block .inner__content {
+        width: 100%; }
+      .expectation .inner .wrapper .inner__block .inner__btn {
+        width: 100%; }
+        .expectation .inner .wrapper .inner__block .inner__btn .btn-df {
+          background: #c679e3;
+          padding: 1.5rem 2rem;
+          margin: 3rem 0rem; } }
