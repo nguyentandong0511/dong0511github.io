@@ -14,28 +14,30 @@ $(function () {
     })
 });
 
-$(".slide-slick").slick({
-    infinite: true,
-    arrows: false,
-    dots: true,
-    arrows: false,
-    slidesToShow: 4,
-    slidesToScroll: 3,
-    speed: 2000,
-    responsive: [
-        {
-            breakpoint: 1000,
-            settings: {
-                slidesToShow: 2,
-                slidesToScroll: 2
+$(function (){
+    $(".slide-slick").slick({
+        infinite: true,
+        arrows: false,
+        dots: true,
+        arrows: false,
+        slidesToShow: 4,
+        slidesToScroll: 3,
+        speed: 2000,
+        responsive: [
+            {
+                breakpoint: 1000,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2
+                }
+            },
+            {
+                breakpoint: 600,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
             }
-        },
-        {
-            breakpoint: 600,
-            settings: {
-                slidesToShow: 1,
-                slidesToScroll: 1
-            }
-        }
-    ]
+        ]
+    });
 });
