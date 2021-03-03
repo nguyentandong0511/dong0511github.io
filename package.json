@@ -26,7 +26,7 @@
     "gulp-watch": "^5.0.1"
   },
   "dependencies": {
-    "pug": "^2.0.3",
+    "pug": "^3.0.1",
     "pug-cli": "^1.0.0-alpha6",
     "slick": "^1.12.2",
     "slick-carousel": "^1.8.1"
